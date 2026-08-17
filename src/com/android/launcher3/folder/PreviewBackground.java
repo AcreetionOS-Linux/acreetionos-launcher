@@ -54,12 +54,12 @@ import com.android.launcher3.graphics.ShapeDelegate;
 import com.android.launcher3.graphics.ThemeManager;
 import com.android.launcher3.util.Themes;
 import com.android.launcher3.views.ActivityContext;
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.theme.color.ColorOption;
-import app.lawnchair.theme.color.tokens.ColorTokens;
-import app.lawnchair.util.LawnchairUtilsKt;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.theme.color.ColorOption;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.util.LawnchairUtilsKt;
 
 /**
  * This object represents a FolderIcon preview background. It stores drawing /

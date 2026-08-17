@@ -73,7 +73,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-import app.lawnchair.LawnchairApp;
+import org.acreetionos.launcher.LawnchairApp;
 
 /**
  * Represents an item in the launcher.

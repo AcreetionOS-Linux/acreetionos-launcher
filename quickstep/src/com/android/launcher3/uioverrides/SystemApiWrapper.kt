@@ -57,7 +57,7 @@ import com.android.quickstep.util.FadeOutRemoteTransition
 import java.util.function.Supplier
 import javax.inject.Inject
 
-import app.lawnchair.LawnchairApp
+import org.acreetionos.launcher.LawnchairApp
 
 /** A wrapper for the hidden API calls */
 @LauncherAppSingleton

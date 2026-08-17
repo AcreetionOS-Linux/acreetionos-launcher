@@ -5,7 +5,7 @@ plugins {
 
 android {
     buildToolsVersion "37.0.0"
-    namespace "app.lawnchair.compatlib"
+    namespace "org.acreetionos.launcher.compatlib"
 
     buildFeatures {
         aidl true

@@ -110,13 +110,13 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Objects;
 
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
-import app.lawnchair.font.FontManager;
-import app.lawnchair.gestures.IconGestureListener;
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.util.LawnchairUtilsKt;
-import app.lawnchair.animation.PhysicsAnimator;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.font.FontManager;
+import org.acreetionos.launcher.gestures.IconGestureListener;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.util.LawnchairUtilsKt;
+import org.acreetionos.launcher.animation.PhysicsAnimator;
 
 /**
  * TextView that draws a bubble behind the text. We cannot use a LineBackgroundSpan

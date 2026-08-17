@@ -69,10 +69,10 @@ import java.util.Objects;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import app.lawnchair.deck.LawndeckManager;
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.deck.LawndeckManager;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 
 /**
  * Handles updates due to changes in package manager (app installed/updated/removed)

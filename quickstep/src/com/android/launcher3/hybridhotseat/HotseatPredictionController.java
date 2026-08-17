@@ -37,7 +37,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import app.lawnchair.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.DragSource;
 import com.android.launcher3.DropTarget;
@@ -67,7 +67,7 @@ import com.android.launcher3.uioverrides.PredictedAppIcon;
 import com.android.launcher3.uioverrides.QuickstepLauncher;
 import com.android.launcher3.views.Snackbar;
 
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;

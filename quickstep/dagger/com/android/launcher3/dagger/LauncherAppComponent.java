@@ -19,7 +19,7 @@ package com.android.launcher3.dagger;
 
 import com.android.quickstep.dagger.QuickstepBaseAppComponent;
 
-import app.lawnchair.icons.ThemeManagerModule;
+import org.acreetionos.launcher.icons.ThemeManagerModule;
 import dagger.Component;
 
 /**

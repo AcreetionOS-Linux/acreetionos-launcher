@@ -22,7 +22,7 @@ import static com.android.launcher3.logging.StatsLogManager.LAUNCHER_STATE_ALLAP
 import android.content.Context;
 import android.graphics.Color;
 
-import app.lawnchair.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
 import com.android.internal.jank.Cuj;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.Flags;
@@ -36,7 +36,7 @@ import com.android.systemui.shared.system.InteractionJankMonitorWrapper;
 
 import java.util.concurrent.TimeUnit;
 
-import app.lawnchair.util.LawnchairUtilsKt;
+import org.acreetionos.launcher.util.LawnchairUtilsKt;
 
 /**
  * Definition for AllApps state

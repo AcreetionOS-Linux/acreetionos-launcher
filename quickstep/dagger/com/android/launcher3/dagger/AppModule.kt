@@ -16,7 +16,7 @@
 
 package com.android.launcher3.dagger
 
-import app.lawnchair.predictions.LawnchairModelDelegate
+import org.acreetionos.launcher.predictions.LawnchairModelDelegate
 import com.android.launcher3.model.ModelDelegate
 import dagger.Binds
 import dagger.Module

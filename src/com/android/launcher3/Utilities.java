@@ -107,8 +107,8 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.function.Predicate;
 
-import app.lawnchair.icons.ExtendedBitmapDrawable;
-import app.lawnchair.preferences.PreferenceManager;
+import org.acreetionos.launcher.icons.ExtendedBitmapDrawable;
+import org.acreetionos.launcher.preferences.PreferenceManager;
 
 /**
  * Various utilities shared amongst the Launcher's classes.

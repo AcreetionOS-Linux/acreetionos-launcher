@@ -59,7 +59,7 @@
             android:layout_gravity="bottom|center_horizontal"
             android:theme="@style/HomeScreenElementTheme" />
 
-        <app.lawnchair.views.EditModePageStrip
+        <org.acreetionos.launcher.views.EditModePageStrip
             android:id="@+id/edit_mode_page_strip"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_mode_page_strip_height"
@@ -74,7 +74,7 @@
             android:id="@+id/drop_target_bar"
             layout="@layout/drop_target_bar" />
 
-        <app.lawnchair.views.LawnchairScrimView
+        <org.acreetionos.launcher.views.LawnchairScrimView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scrim_view"

@@ -56,8 +56,8 @@ import com.android.launcher3.util.Themes;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.views.BaseDragLayer;
 
-import app.lawnchair.theme.color.tokens.ColorTokens;
-import app.lawnchair.theme.drawable.DrawableTokens;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.theme.drawable.DrawableTokens;
 
 /**
  * A container for shortcuts to deep links and notifications associated with an app.

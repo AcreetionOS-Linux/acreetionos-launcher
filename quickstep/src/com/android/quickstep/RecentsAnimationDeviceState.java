@@ -92,7 +92,7 @@ import dagger.assisted.AssistedInject;
 
 import java.io.PrintWriter;
 
-import app.lawnchair.LawnchairApp;
+import org.acreetionos.launcher.LawnchairApp;
 
 /**
  * Manages the state of the system during a swipe up gesture.

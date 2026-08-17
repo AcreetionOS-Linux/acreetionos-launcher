@@ -22,7 +22,7 @@ import android.graphics.Canvas;
 import android.util.FloatProperty;
 import android.view.View;
 
-import app.lawnchair.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
 
 /**
  * Contains general scrim properties such as wallpaper-extracted color that subclasses can use.

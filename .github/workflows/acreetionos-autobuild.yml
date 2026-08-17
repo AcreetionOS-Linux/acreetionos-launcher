@@ -1,0 +1,75 @@
+name: AcreetionOS Launcher Autobuild CI/CD
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - 'v*'
+      - 'release-*'
+  pull_request:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-launcher:
+    name: Build AcreetionOS Launcher APKs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up Java 21 JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '21'
+
+      - name: Setup Gradle Cache
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Validate Gradle Wrapper Checksum
+        uses: gradle/actions/wrapper-validation@v3
+
+      - name: Configure Build Environment
+        run: |
+          chmod +x gradlew
+          mkdir -p build/outputs/apk/
+
+      - name: Compile Release & Debug APKs
+        run: |
+          ./gradlew assembleLawnWithQuickstepGithubRelease assembleLawnWithQuickstepGithubDebug --stacktrace --no-daemon
+
+      - name: Prepare Artifacts & Calculate Hashes
+        run: |
+          mkdir -p dist
+          find acreetionos-launcher/build/outputs/apk -name "*.apk" -exec cp {} dist/ \; 2>/dev/null || find build/outputs/apk -name "*.apk" -exec cp {} dist/ \; 2>/dev/null || true
+          cd dist
+          sha256sum *.apk > SHA256SUMS.txt
+          cat SHA256SUMS.txt
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: AcreetionOS-Launcher-APKs-${{ github.sha }}
+          path: dist/*
+          retention-days: 30
+
+      - name: Publish GitHub Release on Tag
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.apk
+            dist/SHA256SUMS.txt
+          generate_release_notes: true
+          draft: false
+          prerelease: false

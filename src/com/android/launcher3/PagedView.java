@@ -52,7 +52,7 @@ import android.widget.ScrollView;
 
 import androidx.annotation.Nullable;
 
-import app.lawnchair.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
 import com.android.launcher3.compat.AccessibilityManagerCompat;
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.pageindicators.PageIndicator;
@@ -63,12 +63,12 @@ import com.android.launcher3.util.IntSet;
 import com.android.launcher3.util.Thunk;
 import com.android.launcher3.views.ActivityContext;
 
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 import java.util.ArrayList;
 import java.util.function.Consumer;
 
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.ui.StretchEdgeEffect;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.ui.StretchEdgeEffect;
 
 /**
  * An abstraction of the original Workspace which supports browsing through a

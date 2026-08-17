@@ -44,15 +44,15 @@ import com.android.launcher3.model.data.ItemInfoWithIcon;
 import com.android.launcher3.model.data.WorkspaceItemInfo;
 import com.android.launcher3.util.TouchController;
 import com.android.launcher3.views.ActivityContext;
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 
 import java.util.ArrayList;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-import app.lawnchair.LawnchairApp;
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.LawnchairApp;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
 
 /**
  * Class for initiating a drag within a view or across multiple views.

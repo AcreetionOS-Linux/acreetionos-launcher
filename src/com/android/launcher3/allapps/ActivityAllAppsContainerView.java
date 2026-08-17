@@ -113,15 +113,15 @@ import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 import static com.topjohnwu.superuser.internal.Utils.context;
-import app.lawnchair.allapps.LawnchairAlphabeticalAppsList;
-import app.lawnchair.font.FontManager;
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.theme.color.tokens.ColorTokens;
-import app.lawnchair.util.LawnchairUtilsKt;
-import app.lawnchair.ui.StretchRecyclerViewContainer;
+import org.acreetionos.launcher.allapps.LawnchairAlphabeticalAppsList;
+import org.acreetionos.launcher.font.FontManager;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.util.LawnchairUtilsKt;
+import org.acreetionos.launcher.ui.StretchRecyclerViewContainer;
 
 /**
  * All apps container view with search support for use in a dragging activity.

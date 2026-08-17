@@ -24,7 +24,7 @@
     <color name="all_apps_prediction_row_separator_dark">#3cffffff</color>
 
     <!-- Taskbar -->
-    <color name="taskbar_nav_icon_selection_ripple">#E0E0E0</color>
+    <color name="taskbar_nav_icon_selection_ripple">#2ECC71</color>
     <color name="taskbar_nav_icon_light_color_on_home">#ffffff</color>
     <!-- The dark navigation button color is only used in the rare cases that taskbar isn't drawing
     its background and the underlying app has requested dark buttons. -->
@@ -39,11 +39,11 @@
     <!-- Gesture navigation tutorial -->
     <color name="gesture_tutorial_back_arrow_color">#FFFFFFFF</color>
 
-    <color name="gesture_tutorial_fake_wallpaper_color">#f9f9f9</color> <!-- White -->
-    <color name="gesture_tutorial_ripple_color">#A0C2F9</color> <!-- Light Blue -->
-    <color name="gesture_tutorial_fake_task_view_color">#6DA1FF</color> <!-- Light Blue -->
+    <color name="gesture_tutorial_fake_wallpaper_color">#121212</color> <!-- AcreetionOS bg -->
+    <color name="gesture_tutorial_ripple_color">#66D99A</color> <!-- AcreetionOS green -->
+    <color name="gesture_tutorial_fake_task_view_color">#66CC8C</color> <!-- AcreetionOS green -->
     <!-- Must contrast gesture_tutorial_fake_wallpaper_color -->
-    <color name="gesture_tutorial_fake_previous_task_view_color">#3C4043</color> <!-- Gray -->
+    <color name="gesture_tutorial_fake_previous_task_view_color">#1A1A1A</color> <!-- AcreetionOS panel -->
     <color name="gesture_tutorial_taskbar_color">#E8EAED</color>
 
     <!-- Mock hotseat -->

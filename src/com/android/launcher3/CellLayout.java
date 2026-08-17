@@ -79,7 +79,7 @@ import com.android.launcher3.util.Themes;
 import com.android.launcher3.util.Thunk;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.widget.LauncherAppWidgetHostView;
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
 
 import com.google.android.msdl.data.model.MSDLToken;
 
@@ -89,9 +89,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
 
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.theme.color.tokens.ColorTokens;
-import app.lawnchair.theme.drawable.DrawableTokens;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.theme.drawable.DrawableTokens;
 
 public class CellLayout extends ViewGroup {
     private static final String TAG = "CellLayout";

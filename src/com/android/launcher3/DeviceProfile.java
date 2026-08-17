@@ -53,7 +53,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
 import androidx.core.content.res.ResourcesCompat;
-import app.lawnchair.DeviceProfileOverrides.TextFactors;
+import org.acreetionos.launcher.DeviceProfileOverrides.TextFactors;
 import com.android.launcher3.CellLayout.ContainerType;
 import com.android.launcher3.DevicePaddings.DevicePadding;
 import com.android.launcher3.InvariantDeviceProfile.DisplayOptionSpec;
@@ -88,14 +88,14 @@ import java.io.PrintWriter;
 import java.util.Locale;
 import java.util.function.Consumer;
 
-import app.lawnchair.preferences2.PreferenceCacheExtensionsKt;
-import app.lawnchair.DeviceProfileOverrides;
-import app.lawnchair.LawnchairApp;
-import app.lawnchair.LawnchairAppKt;
-import app.lawnchair.hotseat.HotseatMode;
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.theme.color.ColorOption;
+import org.acreetionos.launcher.preferences2.PreferenceCacheExtensionsKt;
+import org.acreetionos.launcher.DeviceProfileOverrides;
+import org.acreetionos.launcher.LawnchairApp;
+import org.acreetionos.launcher.LawnchairAppKt;
+import org.acreetionos.launcher.hotseat.HotseatMode;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.theme.color.ColorOption;
 
 @SuppressLint("NewApi")
 public class DeviceProfile {

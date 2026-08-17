@@ -51,8 +51,8 @@ import com.google.android.msdl.data.model.MSDLToken;
 import java.util.function.Supplier;
 import java.lang.reflect.InvocationTargetException;
 
-import app.lawnchair.LawnchairAppKt;
-import app.lawnchair.util.CompatibilityKt;
+import org.acreetionos.launcher.LawnchairAppKt;
+import org.acreetionos.launcher.util.CompatibilityKt;
 
 /**
  * TouchController for handling touch events that get sent to the StatusBar. Once the

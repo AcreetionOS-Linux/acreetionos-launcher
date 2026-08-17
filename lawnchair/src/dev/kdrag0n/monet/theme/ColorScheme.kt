@@ -1,7 +1,7 @@
 package dev.kdrag0n.monet.theme
 
 import androidx.compose.ui.graphics.Color as ComposeColor
-import app.lawnchair.theme.toAndroidColor
+import org.acreetionos.launcher.theme.toAndroidColor
 import dev.kdrag0n.colorkt.Color
 
 typealias ColorSwatch = Map<Int, Color>

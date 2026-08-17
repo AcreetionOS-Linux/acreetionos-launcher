@@ -56,7 +56,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import app.lawnchair.preferences.PreferenceManager;
+import org.acreetionos.launcher.preferences.PreferenceManager;
 
 /**
  * Manages the drawing and animations of {@link PreviewItemDrawingParams} for a

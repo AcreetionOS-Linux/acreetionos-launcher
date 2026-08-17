@@ -42,7 +42,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.StringJoiner;
 
-import app.lawnchair.compat.LawnchairQuickstepCompat;
+import org.acreetionos.launcher.compat.LawnchairQuickstepCompat;
 
 /**
  * Various shared constants between Launcher and SysUI as part of quickstep

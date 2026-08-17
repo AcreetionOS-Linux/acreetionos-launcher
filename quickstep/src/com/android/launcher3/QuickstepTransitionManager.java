@@ -183,7 +183,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map.Entry;
 
-import app.lawnchair.compat.LawnchairQuickstepCompat;
+import org.acreetionos.launcher.compat.LawnchairQuickstepCompat;
 
 /**
  * Manages the opening and closing app transitions from Launcher

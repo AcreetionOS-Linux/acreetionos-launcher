@@ -39,8 +39,8 @@ import dagger.Binds
 import dagger.Module
 import dagger.Provides
 
-import app.lawnchair.factory.LawnchairWidgetHolder
-import app.lawnchair.util.LawnchairWindowManagerProxy
+import org.acreetionos.launcher.factory.LawnchairWidgetHolder
+import org.acreetionos.launcher.util.LawnchairWindowManagerProxy
 
 private object Modules {}
 

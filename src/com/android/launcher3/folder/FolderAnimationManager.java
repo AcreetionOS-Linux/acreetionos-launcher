@@ -54,7 +54,7 @@ import com.android.launcher3.views.BaseDragLayer;
 
 import java.util.List;
 
-import app.lawnchair.util.LawnchairUtilsKt;
+import org.acreetionos.launcher.util.LawnchairUtilsKt;
 
 /**
  * Manages the opening and closing animations for a {@link Folder}.

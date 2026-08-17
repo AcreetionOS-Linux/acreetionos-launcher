@@ -95,8 +95,8 @@ import java.util.stream.Collectors;
 
 import javax.inject.Inject;
 
-import app.lawnchair.DeviceProfileOverrides.DBGridInfo;
-import app.lawnchair.DeviceProfileOverrides;
+import org.acreetionos.launcher.DeviceProfileOverrides.DBGridInfo;
+import org.acreetionos.launcher.DeviceProfileOverrides;
 
 @LauncherAppSingleton
 public class InvariantDeviceProfile {

@@ -20,8 +20,8 @@ import static com.android.launcher3.logging.StatsLogManager.LAUNCHER_STATE_ALLAP
 
 import android.graphics.Color;
 
-import app.lawnchair.theme.color.tokens.ColorTokens;
-import app.lawnchair.util.LawnchairUtilsKt;
+import org.acreetionos.launcher.theme.color.tokens.ColorTokens;
+import org.acreetionos.launcher.util.LawnchairUtilsKt;
 import com.android.launcher3.Launcher;
 import com.android.launcher3.LauncherState;
 import com.android.launcher3.R;

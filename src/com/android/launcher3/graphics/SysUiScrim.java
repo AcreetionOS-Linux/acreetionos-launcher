@@ -45,8 +45,8 @@ import com.android.launcher3.util.Themes;
 import com.android.launcher3.views.ActivityContext;
 
 import com.patrykmichalik.opto.core.PreferenceExtensionsKt;
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.util.ViewExtensionsKt;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.util.ViewExtensionsKt;
 
 /**
  * View scrim which draws behind hotseat and workspace

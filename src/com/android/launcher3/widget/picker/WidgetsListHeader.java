@@ -46,8 +46,8 @@ import com.android.launcher3.util.CancellableTask;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.widget.model.WidgetsListHeaderEntry;
 
-import app.lawnchair.font.FontManager;
-import app.lawnchair.theme.drawable.DrawableTokens;
+import org.acreetionos.launcher.font.FontManager;
+import org.acreetionos.launcher.theme.drawable.DrawableTokens;
 
 /**
  * A UI represents a header of an app shown in the full widgets tray.

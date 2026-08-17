@@ -57,26 +57,26 @@ import com.android.launcher3.widget.util.WidgetSizeHandler;
 
 import javax.inject.Named;
 
-import app.lawnchair.DeviceProfileOverrides;
-import app.lawnchair.HeadlessWidgetsManager;
-import app.lawnchair.LawnchairActivityCachingLogic;
-import app.lawnchair.NotificationManager;
-import app.lawnchair.data.folder.service.FolderService;
-import app.lawnchair.data.iconoverride.IconOverrideRepository;
-import app.lawnchair.data.wallpaper.service.WallpaperService;
-import app.lawnchair.font.FontCache;
-import app.lawnchair.font.FontManager;
-import app.lawnchair.font.googlefonts.GoogleFontsListing;
-import app.lawnchair.icons.iconpack.IconPackProvider;
-import app.lawnchair.icons.shape.IconShapeManager;
-import app.lawnchair.preferences.PreferenceManager;
-import app.lawnchair.predictions.LawnchairPredictionManager;
-import app.lawnchair.preferences2.PreferenceManager2;
-import app.lawnchair.smartspace.provider.SmartspaceProvider;
-import app.lawnchair.theme.ThemeProvider;
-import app.lawnchair.ui.preferences.components.colorpreference.ColorPreferenceModelList;
-import app.lawnchair.ui.preferences.data.liveinfo.LiveInformationManager;
-import app.lawnchair.util.LawnchairWindowManagerProxy;
+import org.acreetionos.launcher.DeviceProfileOverrides;
+import org.acreetionos.launcher.HeadlessWidgetsManager;
+import org.acreetionos.launcher.LawnchairActivityCachingLogic;
+import org.acreetionos.launcher.NotificationManager;
+import org.acreetionos.launcher.data.folder.service.FolderService;
+import org.acreetionos.launcher.data.iconoverride.IconOverrideRepository;
+import org.acreetionos.launcher.data.wallpaper.service.WallpaperService;
+import org.acreetionos.launcher.font.FontCache;
+import org.acreetionos.launcher.font.FontManager;
+import org.acreetionos.launcher.font.googlefonts.GoogleFontsListing;
+import org.acreetionos.launcher.icons.iconpack.IconPackProvider;
+import org.acreetionos.launcher.icons.shape.IconShapeManager;
+import org.acreetionos.launcher.preferences.PreferenceManager;
+import org.acreetionos.launcher.predictions.LawnchairPredictionManager;
+import org.acreetionos.launcher.preferences2.PreferenceManager2;
+import org.acreetionos.launcher.smartspace.provider.SmartspaceProvider;
+import org.acreetionos.launcher.theme.ThemeProvider;
+import org.acreetionos.launcher.ui.preferences.components.colorpreference.ColorPreferenceModelList;
+import org.acreetionos.launcher.ui.preferences.data.liveinfo.LiveInformationManager;
+import org.acreetionos.launcher.util.LawnchairWindowManagerProxy;
 import dagger.BindsInstance;
 
 /**
