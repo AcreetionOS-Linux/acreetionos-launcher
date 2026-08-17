@@ -1,32 +1,31 @@
-# Lawnchair 16
+# AcreetionOS Mobile Launcher
 
-[![Build debug APK](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml/badge.svg)](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml)
-[![Build release APK](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/release_update.yml/badge.svg)](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/release_update.yml)
-[![Crowdin](https://badges.crowdin.net/e/188ba69d884418987f0b7f1dd55e3a4e/localized.svg)](https://lawnchair.crowdin.com/lawnchair)
-[![OpenCollective](https://img.shields.io/opencollective/all/lawnchair?label=financial%20contributors&logo=open-collective)](https://opencollective.com/lawnchair)
-[![Telegram](https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Flccommunity)](https://t.me/lccommunity)
-[![Discord](https://img.shields.io/discord/803299970169700402?label=server&logo=discord)](https://discord.gg/3x8qNWxgGZ)
-[![GitHub Downloads](https://img.shields.io/github/downloads/LawnchairLauncher/lawnchair/total.svg?label=GitHub%20Downloads&logo=github)](https://github.com/LawnchairLauncher/lawnchair/releases)
-[![Play Store Installs](https://img.shields.io/endpoint?color=green&logo=googleplay&logoColor=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.acreetionos.launcher.play%26l%3DPlay%2520Store%2520Installs%26m%3D%24shortinstalls)](https://play.google.com/store/apps/details?id=org.acreetionos.launcher.play)
+[![Build debug APK](https://github.com/AcreetionOS-Code/acreetionos-launcher/actions/workflows/ci.yml/badge.svg)](https://github.com/AcreetionOS-Code/acreetionos-launcher/actions/workflows/ci.yml)
+[![Build release APK](https://github.com/AcreetionOS-Code/acreetionos-launcher/actions/workflows/acreetionos-autobuild.yml/badge.svg)](https://github.com/AcreetionOS-Code/acreetionos-launcher/actions/workflows/acreetionos-autobuild.yml)
+[![Discord](https://img.shields.io/discord/803299970169700402?label=server&logo=discord)](https://discord.acreetionos.org)
+[![GitHub Downloads](https://img.shields.io/github/downloads/AcreetionOS-Code/acreetionos-launcher/total.svg?label=GitHub%20Downloads&logo=github)](https://github.com/AcreetionOS-Code/acreetionos-launcher/releases)
 
-> [!WARNING]
-> This branch contains major changes from the rebase of Launcher3, including changes that can cause
-> Lawnchair to crash or break.
->
-> For regular users, we recommend staying on *Lawnchair 15 Beta 3*.
+The AcreetionOS Mobile Launcher — a privacy-first home screen for
+**AcreetionOS Mobile** (built on LineageOS). Forked from Lawnchair, themed
+for AcreetionOS, with all the Google/Microsoft/telemetry bits ripped out.
 
-<picture>
-    <!-- Avoid image being clickable with slight workaround -->
-    <!-- ❤️ Credit to simonppt for the current mockup on Unsplash 
-            https://unsplash.com/photos/a-white-flower-with-green-leaves-on-a-white-background-ojBNiaeykwc
-    -->
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/device-frame.webp" width="250px">
-    <img alt="A device running Lawnchair Launcher with green flower wallpaper" src="docs/assets/device-frame.webp" width="250px">
-</picture>
+**AcreetionOS Mobile features:**
+- 🗂️ **Custom settings dashboard** — entirely new launcher settings, plus
+  AcreetionOS-specific options
+- ⚡ **Samsung-style quick panel** — swipe-down control center, AcreetionOS themed
+- 📰 **Side panel RSS feed** — Arch Linux + AcreetionOS news where the Google
+  feed used to be, with a Discord overlay widget for [discord.acreetionos.org](https://discord.acreetionos.org)
+- 🔍 **Qwant search** — default search provider, no Google
+- 🛡️ **Search privacy sandbox** — sandboxed search proxied through an
+  on-device VPN; no telemetry leaves your phone
+- 🧹 **Zero telemetry** — Google/Microsoft tracking removed from the launcher
+- 🏠 **acreetionos.org** defaults across about/hub/quickpanel/feed
 
-Lawnchair is a free, open-source home app for Android. Taking Launcher3—Android’s default home app—as a starting point, it ports Pixel Launcher features and introduces rich customization options.
+## Upstream
 
-This branch houses the codebase of Lawnchair 16, which is currently in development and is based on Launcher3 from Android 16. For Lawnchair 9 to 15, see the branches with the `9-` to `15-` prefixes, respectively.
+This project is a fork of [Lawnchair](https://github.com/LawnchairLauncher/lawnchair)
+(Launcher3-based). This branch (16-dev) is based on Lawnchair 16 /
+Launcher3 from Android 16.
 
 ## Features
 
